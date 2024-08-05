@@ -176,6 +176,7 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+  
 }
 
 .section__text {
@@ -337,11 +338,11 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
+  text-align:center;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
-  justify-content: space-around;
+  justify-content:center;
 }
 
 article {
@@ -355,10 +356,12 @@ article .icon {
   cursor: default;
 }
 
+
 /* PROJECTS SECTION */
 
 #projects {
   position: relative;
+  
 }
 
 .color-container {
